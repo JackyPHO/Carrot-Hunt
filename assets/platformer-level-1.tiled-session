@@ -1,0 +1,70 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "platformer-level-1.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 0.0625,
+            "scaleInEditor": 1
+        },
+        "#tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Jacky/Documents/cmpm120/PlatformImprovement/assets/platformer-level-1.tmx": {
+            "scale": 1.493611111111111,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 447.907755253859,
+                "y": 188.1346475729961
+            }
+        },
+        "C:/Users/Jacky/Documents/cmpm120/PlatformImprovement/assets/platformer-level-1.tmx#kenny_tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Jacky/Documents/cmpm120/PlatformImprovement/assets/platformer-level-1.tmx#tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "platformer-level-1.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 108,
+                "y": 339
+            }
+        },
+        "platformer-level-1.tmx#background": {
+            "scaleInDock": 0.0625
+        },
+        "platformer-level-1.tmx#tilemap_packed": {
+            "scaleInDock": 1
+        }
+    },
+    "frame.defaultDuration": 1000,
+    "last.exportedFilePath": "C:/Users/Jacky/Documents/cmpm120/Game3/assets",
+    "last.imagePath": "C:/Users/Jacky/Documents/cmpm120/Game3/assets",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 18,
+    "map.tileWidth": 18,
+    "map.width": 40,
+    "openFiles": [
+        "platformer-level-1.tmx"
+    ],
+    "project": "platformer-level-1.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "platformer-level-1.tmx",
+        "C:/Users/Jacky/Documents/cmpm120/PlatformImprovement/assets/platformer-level-1.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 18,
+        "width": 18
+    }
+}

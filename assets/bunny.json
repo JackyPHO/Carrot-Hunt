@@ -1,0 +1,215 @@
+{
+	"frames": {
+		"bunny2_hurt.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 150,
+				"h": 201
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 150,
+				"h": 201
+			},
+			"sourceSize": {
+				"w": 150,
+				"h": 201
+			}
+		},
+		"bunny2_jump.png": {
+			"frame": {
+				"x": 153,
+				"y": 1,
+				"w": 150,
+				"h": 201
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 150,
+				"h": 201
+			},
+			"sourceSize": {
+				"w": 150,
+				"h": 201
+			}
+		},
+		"bunny2_ready.png": {
+			"frame": {
+				"x": 305,
+				"y": 1,
+				"w": 121,
+				"h": 201
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 121,
+				"h": 201
+			},
+			"sourceSize": {
+				"w": 121,
+				"h": 201
+			}
+		},
+		"bunny2_stand.png": {
+			"frame": {
+				"x": 428,
+				"y": 1,
+				"w": 121,
+				"h": 201
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 121,
+				"h": 201
+			},
+			"sourceSize": {
+				"w": 121,
+				"h": 201
+			}
+		},
+		"bunny2_walk1.png": {
+			"frame": {
+				"x": 551,
+				"y": 1,
+				"w": 121,
+				"h": 201
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 121,
+				"h": 201
+			},
+			"sourceSize": {
+				"w": 121,
+				"h": 201
+			}
+		},
+		"bunny2_walk2.png": {
+			"frame": {
+				"x": 674,
+				"y": 1,
+				"w": 121,
+				"h": 207
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 121,
+				"h": 207
+			},
+			"sourceSize": {
+				"w": 121,
+				"h": 207
+			}
+		},
+		"spikeMan_jump.png": {
+			"frame": {
+				"x": 797,
+				"y": 1,
+				"w": 114,
+				"h": 155
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 114,
+				"h": 155
+			},
+			"sourceSize": {
+				"w": 114,
+				"h": 155
+			}
+		},
+		"spikeMan_stand.png": {
+			"frame": {
+				"x": 913,
+				"y": 1,
+				"w": 90,
+				"h": 155
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 155
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 155
+			}
+		},
+		"spikeMan_walk1.png": {
+			"frame": {
+				"x": 1005,
+				"y": 1,
+				"w": 120,
+				"h": 159
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 120,
+				"h": 159
+			},
+			"sourceSize": {
+				"w": 120,
+				"h": 159
+			}
+		},
+		"spikeMan_walk2.png": {
+			"frame": {
+				"x": 1127,
+				"y": 1,
+				"w": 90,
+				"h": 155
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 155
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 155
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1218,
+			"h": 209
+		},
+		"scale": "1"
+	}
+}
