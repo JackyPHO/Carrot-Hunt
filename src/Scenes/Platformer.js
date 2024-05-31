@@ -19,6 +19,8 @@ class Platformer extends Phaser.Scene {
     create() {
         this.myScore = 0; 
 
+        this.step = this.sound.add('step').setRate(3).setVolume(0.25);
+
         // Create a new tilemap game object which uses 18x18 pixel tiles, and is
         // 150 tiles wide and 25 tiles tall.
         this.map = this.add.tilemap("platformer-level-1", 18, 18, 150, 25);
@@ -96,11 +98,14 @@ class Platformer extends Phaser.Scene {
     }
 
     update() {
-        var pointer = this.input.activePointer;
         if(cursors.left.isDown) {
             my.sprite.player.setAccelerationX(-this.ACCELERATION);
             my.sprite.player.setFlip(true, false);
             my.sprite.player.anims.play('walk', true);
+            if (!this.step.isPlaying)
+            {
+                this.step.play();
+            }
             my.vfx.walking.startFollow(my.sprite.player, my.sprite.player.displayWidth/2-10, my.sprite.player.displayHeight/2-5, false);
             my.vfx.walking.setParticleSpeed(this.PARTICLE_VELOCITY, 0);
             my.vfx.walking.setParticleScale(0.5, 0.5);
@@ -112,6 +117,10 @@ class Platformer extends Phaser.Scene {
             my.sprite.player.setAccelerationX(this.ACCELERATION);
             my.sprite.player.resetFlip();
             my.sprite.player.anims.play('walk', true);
+            if (!this.step.isPlaying)
+            {
+                this.step.play();
+            }
             my.vfx.walking.startFollow(my.sprite.player, my.sprite.player.displayWidth/2-10, my.sprite.player.displayHeight/2-5, false);
             my.vfx.walking.setParticleSpeed(this.PARTICLE_VELOCITY, 0);
             my.vfx.walking.setParticleScale(0.25, 0.25);
